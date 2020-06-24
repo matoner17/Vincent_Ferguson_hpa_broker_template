@@ -1,0 +1,177 @@
+body {
+	font-family: 'Montserrat', arial, sans-serif;
+	font-size: 14px;
+}
+
+/* HEADER */
+header .top {
+	background-color: #fff;
+	border-bottom:29px solid #002157;
+	border-top:5px solid #002157;
+	padding:23px 0 19px 0;
+}
+
+.l-col, .r-col {
+	padding: 0;
+}
+
+.r-col {
+	text-align: center;
+}
+
+header .top img {
+	height:auto;
+	margin:0 auto;
+}
+
+header img.top-logo {
+	margin:25px auto 0 auto;
+}
+
+
+/* CONTENT */
+article .container {
+	max-width: 904px;
+}
+
+.welcome, .info {
+	padding: 0;
+}
+
+.welcome h1 {
+	color:#002157;
+	font-family: 'Montserrat', arial, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 45px;
+}
+
+.info {
+	margin-bottom: 34px;
+}
+
+.info img {
+	margin-top:61px;
+}
+
+.info a {
+	color:#002157;
+	text-decoration: none;
+}
+
+article.details {
+	background-color: #e1e1e1;
+}
+
+.details h1 {
+	color:#002157;
+	font-size: 20px;
+}
+
+.details h2 {
+	color:#002157;
+	font-size: 20px;
+}
+
+.buttons a {
+	clear: both;
+	display: block;
+	font-family: 'Montserrat', arial, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	padding:22px 28px 22px 28px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%
+}
+
+.buttons a:hover {
+	text-decoration: none;
+}
+
+a.yellow {
+	background-color: #ffdb00;
+	color:#002157;
+	margin-bottom: 17px;
+}
+
+a.yellow:hover {
+	background-color: #002157;
+	color:#ffdb00;
+}
+
+a.blue {
+	background-color: #002157;
+	color:#fff;
+	margin-bottom: 5px;
+}
+
+a.blue:hover {
+	background-color: #ffdb00;
+	color:#002157;
+}
+
+.bot-logo {
+	margin:35px auto 40px auto;
+}
+
+
+/* FOOTER */
+footer {
+	background-color: #7d7d7d;
+	padding: 30px 0 30px 0;
+}
+
+footer .container {
+	max-width: 904px;
+}
+
+footer p{
+	font-size: 14px;
+}
+
+
+
+
+/* ***************************** */
+/* ***** CSS MEDIA QUERIES ***** */
+/* ***************************** */
+@media(min-width:768px){
+	header .container {
+		max-width: 1080px;
+	}
+
+	header .top img {
+	    float: left;
+	}
+
+	header img.top-logo {
+		float:right;
+		margin:0;
+	}
+
+	header .bottom img{
+    	width: 100%;
+	}
+
+	img.small {
+		display: none;
+	}
+
+	.welcome {
+		padding: 0 94px 0 0;
+	}
+
+	.inner-wrap {
+		float:right;
+	}
+
+	.info img {
+		margin-top:27px;
+	}
+
+	a.yellow {
+		margin-top:34px;
+	}
+}
